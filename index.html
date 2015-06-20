@@ -95,7 +95,7 @@
             
             p{      
                  test-align: justify;
-                 line-height: 3`0px;
+                 line-height: 30px;
                  margin-left: 10px;  
              }
             
@@ -123,6 +123,10 @@
             #pic {
                     margin-left: 20px;
             }
+            
+            #inst {
+                padding-left: 40px;   
+            }
         </style>
     </head>
 <script src ="http://d3js.org/d3.v3.min.js"></script>
@@ -147,7 +151,7 @@
             <canvas id="total" data-processing-sources="total.pde" width="180" height="180"></canvas>
      
         </td>
-        <td>
+        <td id= "inst">
             <p> 1. 박스를 누르세요.</p> 
             <p> 2. 영문 모드로 바꾸고, 알파벳을 누르세요.</p>
             <p> 3. 스페이스 바를 누르면 지워집니다.</p> 
